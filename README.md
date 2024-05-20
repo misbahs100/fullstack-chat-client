@@ -1,3 +1,6 @@
+# Live Site
+[Click](https://my-fullstack-chat.netlify.app) here to see the live site. You must have to Sign Up if you want to use it.
+
 # Connect React to Chat Engine!
 
 This simple repo shows how to easily add chat functionality into a React project with [Chat Engine](https://chatengine.io).
@@ -26,20 +29,7 @@ This allows you to connect to different chat-servers in local vs staging vs prod
 Replace the UUID below with your own. In `.env` write:
 
 ```
-REACT_APP_CHAT_ENGINE_PROJECT_ID=5d498a31-cd23-42b7-b367-4fcc9463bd2f
+REACT_APP_CHAT_ENGINE_PROJECT_ID=your_project_id
 ```
 
-### 3 - Install & Start
 
-Run the following two lines of code in `client-react/`.
-
-```
-npm install
-npm run start
-```
-
-Done! Your Express server is on `localhost:3000` and connected to Chat Engine!
-
-All new "Sign Up" users are on Chat Engine, and their credentiuals are found upon "Login".
-
-To understand the code, please watch [this video]()!
